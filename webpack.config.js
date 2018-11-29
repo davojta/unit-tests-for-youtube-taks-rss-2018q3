@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   module: {
     rules: [
@@ -20,5 +22,12 @@ module.exports = {
         }
       }
     ]
+  },
+  mode: 'development',
+  devtool: 'inline-source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9000
   }
 };
