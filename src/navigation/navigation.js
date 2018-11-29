@@ -1,4 +1,4 @@
-import navigationTemplate from './navigation.html';
+import navigationTemplate from './navigation.template';
 import './navigation.css';
 
 class Navigation {

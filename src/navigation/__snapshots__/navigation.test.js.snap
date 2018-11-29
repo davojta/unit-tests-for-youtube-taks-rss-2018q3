@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation render correct template into the section 1`] = `
+"
+<div class=\\"navigation__number\\"></div>
+<div class=\\"navigation__bar\\"></div>
+"
+`;
