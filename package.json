@@ -9,6 +9,7 @@
     "start": "webpack-dev-server --open",
     "build": "webpack --mode production",
     "test": "jest",
+    "debug-test": "node --inspect-brk node_modules/.bin/jest --runInBand",
     "coverage": "jest --coverage"
   },
   "keywords": [],

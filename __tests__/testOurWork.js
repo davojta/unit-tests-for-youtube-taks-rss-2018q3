@@ -25,6 +25,7 @@ const items = [
 ]
 
 function ourCompleFunction(items, config) {
+    debugger;
     return items
     .filter(({ id, color }) => {
         // console.log('id, color', id, color, config[color]);
