@@ -8,6 +8,6 @@ I really want to configure jest and babel in easy way. Cause it's working in [an
 To help with making tests passing:
 
 1. `git clone https://github.com/DimaDK24/unit-tests-for-youtube-taks-rss-2018q3.git`
-2. `cd test_regenerator_runtime`
+2. `cd unit-tests-for-youtube-taks-rss-2018q3`
 3. `npm install`
 4. `npm test`
