@@ -1,7 +1,7 @@
 # Original project for unit testing
-[![Tests are failing](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://shields.io/)
+[![Tests are passing](https://img.shields.io/badge/tests-passing-brightgreen.svg)](https://shields.io/)
 
-It's working!
+It's working with simple and clear config!
 
 Check it on your own:
 
