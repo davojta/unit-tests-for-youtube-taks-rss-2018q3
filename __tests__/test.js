@@ -1,4 +1,4 @@
-import API from './api';
+import API from '../src/api';
 import 'isomorphic-fetch';
 
 test('API returns object', () => {
