@@ -1,0 +1,54 @@
+:root
+{
+    --navigation-bg: #bdbdbd;
+    --navigation__bar: #2196f3;
+    --navigation__number: #fff;
+    --navigation__number-bg: #f44235;
+}
+.navigation
+{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 10px;
+
+    background-color: var(--navigation-bg);
+}
+
+.navigation__number
+{
+    position: absolute;
+    z-index: 99;
+    bottom: 10px;
+    left: -100px;
+
+    padding: 3px;
+
+    color: var(--navigation__number);
+    border-radius: 0 3px 0 0;
+    background-color: var(--navigation__number-bg);
+}
+.navigation:hover .navigation__number
+{
+    left: 0;
+
+    transition: 0.7s;
+}
+.navigation__bar
+{
+    position: absolute;
+    bottom: 0;
+
+    height: 10px;
+
+    border-radius: 0 3px 3px 0;
+    background-color: var(--navigation__bar);
+}
+@media screen and (max-width: 768px)
+{
+    :root
+    {
+        --navigation-bg: #323639;
+    }
+}
