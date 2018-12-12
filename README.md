@@ -9,3 +9,4 @@ Check it on your own:
 2. `cd unit-tests-for-youtube-taks-rss-2018q3`
 3. `npm install`
 4. `npm test`
+5. `npm start`
