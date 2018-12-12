@@ -34,9 +34,9 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.0.0",
     "es6-promise": "^4.2.5",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "regenerator-runtime": "^0.11.1"
   },
   "jest": {
     "transform": {
