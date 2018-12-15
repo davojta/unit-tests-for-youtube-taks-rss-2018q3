@@ -1,3 +1,4 @@
+import 'regenerator-runtime/runtime';
 import Header from './header/header';
 import Carousel from './carousel/carousel';
 import API from './api/api';
